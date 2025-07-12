@@ -50,6 +50,24 @@ main .action-div{
     border-radius: 48px;
 }
 
+/* Productive Users Style */
+.productive-users{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #e5e7ff;
+    border-radius: 24px;
+}
+.productive-users h3{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 38px;
+}
+.productive-users-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* shared styles */
 .inter-normal{
   font-family: "Inter", sans-serif;
@@ -92,4 +110,16 @@ a{
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 0px;
+}
+.stat{
+    font-weight: 700;
+    font-size: 80px;
+    color: #4E47FF;
+    line-height: 0%;
+}
+.stat-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
