@@ -9,7 +9,7 @@ body{
     height: 698px;
 }
 .nav{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,7 @@ body{
     align-items: center;
 }
 main .action-div{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ main .action-div{
 
 /* Productive Users Style */
 .productive-users{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 100px auto;
     background-color: #e5e7ff;
     border-radius: 24px;
@@ -70,7 +70,7 @@ main .action-div{
 
 /* Users Review section Style */
 .users-review-section{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .users-review-section h1{
@@ -113,6 +113,45 @@ main .action-div{
 .users-review h3{
     font-weight: 800;
     font-size: 21px;
+}
+
+/* Get in Touch Section Style */
+.get-in-touch-container{
+    max-width: 1140px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0 71px;
+}
+.get-in-touch-title h1{
+    font-weight: 700;
+    font-size: 97px;
+}
+.form-div{
+    width: 497px;
+}
+form input{
+    margin-bottom: 19px;
+    width: 497px;
+    border: none;
+    border-radius: 10px;
+}
+form label{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+}
+form .email,.name{
+    padding: 20px 32px;
+}
+form .message{
+    /* height: 135px; */
+    padding: 20px 32px 70px;
+}
+form input[placeholder]{
+    font-weight: 400;
+    font-size: 20px;
 }
 
 /* shared styles */
