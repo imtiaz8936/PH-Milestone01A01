@@ -53,7 +53,7 @@ main .action-div{
 /* Productive Users Style */
 .productive-users{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 100px auto;
     background-color: #e5e7ff;
     border-radius: 24px;
 }
@@ -66,6 +66,53 @@ main .action-div{
 .productive-users-div{
     display: flex;
     justify-content: space-evenly;
+}
+
+/* Users Review section Style */
+.users-review-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.users-review-section h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 42px;
+}
+.users-review-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.users-review-div{
+    background-color: #FFFFFF;
+    width: 366px;
+    height: 235px;
+    padding: 48px 48px 15px ;
+    border-radius: 16px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer div{
+    line-height: 4px;
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.users-review{
+    padding: 20px 0px;
+}
+.users-review p{
+    margin-top: 8px;
+}
+.users-review h3{
+    font-weight: 800;
+    font-size: 21px;
 }
 
 /* shared styles */
@@ -122,4 +169,14 @@ a{
     font-weight: 400;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+.review-date{
+    color: rgba(179, 179, 179, 1);
+    font-weight: 500;
+    font-size: small;
+}
+.reviewer-name{
+    color: rgb(141, 139, 139);
+    font-weight: 700;
+    font-size: 13px;
 }
